@@ -1,0 +1,407 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: anthony lee, nss team, LIC=BL2VE-5ZLMJ-22VL4-FZWSS-5UIXN-4I4AF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+E:\ibm1391401\ibm1391401.uvprojx
+Project File Date:  05/02/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling main.c...
+User\common.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif // COMMON_H
+User\led.h(16): warning:  #1295-D: Deprecated declaration led_init - give arg types
+  void led_init();
+User\led.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif // LED_H
+User\usbhid.h(29): warning:  #1295-D: Deprecated declaration USBHID_init - give arg types
+  void USBHID_init();
+User\usbhid.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif // USBHID_H
+User\keyboard.h(39): warning:  #47-D: incompatible redefinition of macro "NULL"  (declared at line 84 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h")
+  #define       NULL    0x00
+User\keyboard.h(89): warning:  #2775-D: white space is required between the macro name "KEY_NON" and its replacement text
+  #define       KEY_NON-US      0x32
+User\keyboard.h(142): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP= 0x67
+User\keyboard.h(193): warning:  #2775-D: white space is required between the macro name "KEY_SYSREQ" and its replacement text
+  #define       KEY_SYSREQ/ATTENTION1   0x9A
+User\keyboard.h(197): warning:  #47-D: incompatible redefinition of macro "KEY_RETURN"  (declared at line 79)
+  #define       KEY_RETURN      0x9E
+User\keyboard.h(201): warning:  #2775-D: white space is required between the macro name "KEY_CLEAR" and its replacement text
+  #define       KEY_CLEAR/AGAIN 0xA2
+User\keyboard.h(201): warning:  #47-D: incompatible redefinition of macro "KEY_CLEAR"  (declared at line 195)
+  #define       KEY_CLEAR/AGAIN 0xA2
+User\keyboard.h(202): warning:  #2775-D: white space is required between the macro name "KEY_CRSEL" and its replacement text
+  #define       KEY_CRSEL/PROPS 0xA3
+User\keyboard.h(206): warning:  #47-D: incompatible redefinition of macro "KEY_SEPARATOR"  (declared at line 198)
+  #define       KEY_SEPARATOR   0xB2
+User\keyboard.h(207): warning:  #47-D: incompatible redefinition of macro "KEY_SEPARATOR"  (declared at line 206)
+  #define       KEY_SEPARATOR   0xB3
+User\keyboard.h(209): warning:  #2775-D: white space is required between the macro name "KEY_SUB" and its replacement text
+  #define       KEY_SUB-UNIT    0xB5
+User\keyboard.h(223): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP^ 0xC3
+User\keyboard.h(223): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 142)
+  #define       KEY_KP^ 0xC3
+User\keyboard.h(224): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP% 0xC4
+User\keyboard.h(224): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 223)
+  #define       KEY_KP% 0xC4
+User\keyboard.h(225): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP< 0xC5
+User\keyboard.h(225): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 224)
+  #define       KEY_KP< 0xC5
+User\keyboard.h(226): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP> 0xC6
+User\keyboard.h(226): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 225)
+  #define       KEY_KP> 0xC6
+User\keyboard.h(227): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP& 0xC7
+User\keyboard.h(227): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 226)
+  #define       KEY_KP& 0xC7
+User\keyboard.h(228): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP&&        0xC8
+User\keyboard.h(228): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 227)
+  #define       KEY_KP&&        0xC8
+User\keyboard.h(229): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP| 0xC9
+User\keyboard.h(229): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 228)
+  #define       KEY_KP| 0xC9
+User\keyboard.h(230): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP||        0xCA
+User\keyboard.h(230): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 229)
+  #define       KEY_KP||        0xCA
+User\keyboard.h(231): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP: 0xCB
+User\keyboard.h(231): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 230)
+  #define       KEY_KP: 0xCB
+User\keyboard.h(232): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP# 0xCC
+User\keyboard.h(232): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 231)
+  #define       KEY_KP# 0xCC
+User\keyboard.h(234): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP@ 0xCE
+User\keyboard.h(234): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 232)
+  #define       KEY_KP@ 0xCE
+User\keyboard.h(235): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP! 0xCF
+User\keyboard.h(235): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 234)
+  #define       KEY_KP! 0xCF
+User\keyboard.h(237): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 236)
+  #define       KEY_KPMEMORY    0xD1
+User\keyboard.h(238): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 237)
+  #define       KEY_KPMEMORY    0xD2
+User\keyboard.h(239): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 238)
+  #define       KEY_KPMEMORY    0xD3
+User\keyboard.h(240): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 239)
+  #define       KEY_KPMEMORY    0xD4
+User\keyboard.h(241): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 240)
+  #define       KEY_KPMEMORY    0xD5
+User\keyboard.h(242): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 241)
+  #define       KEY_KPMEMORY    0xD6
+User\keyboard.h(245): warning:  #47-D: incompatible redefinition of macro "KEY_KPCLEAR"  (declared at line 244)
+  #define       KEY_KPCLEAR     0xD9
+User\keyboard.h(260): warning:  #1295-D: Deprecated declaration keyboard_init - give arg types
+  void keyboard_init();
+User\keyboard.h(262): warning:  #1-D: last line of file ends without a newline
+  #endif // KEYBOARD_H
+User\main.c(51): warning:  #223-D: function "keyboard_sync_status" declared implicitly
+                keyboard_sync_status(&output_form);
+User\main.c(56): warning:  #111-D: statement is unreachable
+        return 1;
+User\main.c(57): warning:  #1-D: last line of file ends without a newline
+  }
+User\main.c: 52 warnings, 0 errors
+compiling keyboard.c...
+User\common.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif // COMMON_H
+User\usbhid.h(29): warning:  #1295-D: Deprecated declaration USBHID_init - give arg types
+  void USBHID_init();
+User\usbhid.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif // USBHID_H
+User\led.h(16): warning:  #1295-D: Deprecated declaration led_init - give arg types
+  void led_init();
+User\led.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif // LED_H
+User\keyboard.h(39): warning:  #47-D: incompatible redefinition of macro "NULL"  (declared at line 84 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h")
+  #define       NULL    0x00
+User\keyboard.h(89): warning:  #2775-D: white space is required between the macro name "KEY_NON" and its replacement text
+  #define       KEY_NON-US      0x32
+User\keyboard.h(142): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP= 0x67
+User\keyboard.h(193): warning:  #2775-D: white space is required between the macro name "KEY_SYSREQ" and its replacement text
+  #define       KEY_SYSREQ/ATTENTION1   0x9A
+User\keyboard.h(197): warning:  #47-D: incompatible redefinition of macro "KEY_RETURN"  (declared at line 79)
+  #define       KEY_RETURN      0x9E
+User\keyboard.h(201): warning:  #2775-D: white space is required between the macro name "KEY_CLEAR" and its replacement text
+  #define       KEY_CLEAR/AGAIN 0xA2
+User\keyboard.h(201): warning:  #47-D: incompatible redefinition of macro "KEY_CLEAR"  (declared at line 195)
+  #define       KEY_CLEAR/AGAIN 0xA2
+User\keyboard.h(202): warning:  #2775-D: white space is required between the macro name "KEY_CRSEL" and its replacement text
+  #define       KEY_CRSEL/PROPS 0xA3
+User\keyboard.h(206): warning:  #47-D: incompatible redefinition of macro "KEY_SEPARATOR"  (declared at line 198)
+  #define       KEY_SEPARATOR   0xB2
+User\keyboard.h(207): warning:  #47-D: incompatible redefinition of macro "KEY_SEPARATOR"  (declared at line 206)
+  #define       KEY_SEPARATOR   0xB3
+User\keyboard.h(209): warning:  #2775-D: white space is required between the macro name "KEY_SUB" and its replacement text
+  #define       KEY_SUB-UNIT    0xB5
+User\keyboard.h(223): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP^ 0xC3
+User\keyboard.h(223): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 142)
+  #define       KEY_KP^ 0xC3
+User\keyboard.h(224): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP% 0xC4
+User\keyboard.h(224): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 223)
+  #define       KEY_KP% 0xC4
+User\keyboard.h(225): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP< 0xC5
+User\keyboard.h(225): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 224)
+  #define       KEY_KP< 0xC5
+User\keyboard.h(226): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP> 0xC6
+User\keyboard.h(226): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 225)
+  #define       KEY_KP> 0xC6
+User\keyboard.h(227): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP& 0xC7
+User\keyboard.h(227): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 226)
+  #define       KEY_KP& 0xC7
+User\keyboard.h(228): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP&&        0xC8
+User\keyboard.h(228): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 227)
+  #define       KEY_KP&&        0xC8
+User\keyboard.h(229): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP| 0xC9
+User\keyboard.h(229): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 228)
+  #define       KEY_KP| 0xC9
+User\keyboard.h(230): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP||        0xCA
+User\keyboard.h(230): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 229)
+  #define       KEY_KP||        0xCA
+User\keyboard.h(231): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP: 0xCB
+User\keyboard.h(231): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 230)
+  #define       KEY_KP: 0xCB
+User\keyboard.h(232): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP# 0xCC
+User\keyboard.h(232): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 231)
+  #define       KEY_KP# 0xCC
+User\keyboard.h(234): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP@ 0xCE
+User\keyboard.h(234): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 232)
+  #define       KEY_KP@ 0xCE
+User\keyboard.h(235): warning:  #2775-D: white space is required between the macro name "KEY_KP" and its replacement text
+  #define       KEY_KP! 0xCF
+User\keyboard.h(235): warning:  #47-D: incompatible redefinition of macro "KEY_KP"  (declared at line 234)
+  #define       KEY_KP! 0xCF
+User\keyboard.h(237): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 236)
+  #define       KEY_KPMEMORY    0xD1
+User\keyboard.h(238): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 237)
+  #define       KEY_KPMEMORY    0xD2
+User\keyboard.h(239): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 238)
+  #define       KEY_KPMEMORY    0xD3
+User\keyboard.h(240): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 239)
+  #define       KEY_KPMEMORY    0xD4
+User\keyboard.h(241): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 240)
+  #define       KEY_KPMEMORY    0xD5
+User\keyboard.h(242): warning:  #47-D: incompatible redefinition of macro "KEY_KPMEMORY"  (declared at line 241)
+  #define       KEY_KPMEMORY    0xD6
+User\keyboard.h(245): warning:  #47-D: incompatible redefinition of macro "KEY_KPCLEAR"  (declared at line 244)
+  #define       KEY_KPCLEAR     0xD9
+User\keyboard.h(260): warning:  #1295-D: Deprecated declaration keyboard_init - give arg types
+  void keyboard_init();
+User\keyboard.h(262): warning:  #1-D: last line of file ends without a newline
+  #endif // KEYBOARD_H
+User\keyboard.c: 49 warnings, 0 errors
+compiling led.c...
+User\common.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif // COMMON_H
+User\led.h(16): warning:  #1295-D: Deprecated declaration led_init - give arg types
+  void led_init();
+User\led.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif // LED_H
+User\led.c(7): warning:  #1293-D: assignment in condition
+        if (current_status = status)
+User\led.c(18): warning:  #1293-D: assignment in condition
+        if (current_status = status)
+User\led.c(29): warning:  #1293-D: assignment in condition
+        if (current_status = status)
+User\led.c(50): warning:  #1-D: last line of file ends without a newline
+  }
+User\led.c: 7 warnings, 0 errors
+compiling usbhid.c...
+User\common.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif // COMMON_H
+User\usbhid.h(29): warning:  #1295-D: Deprecated declaration USBHID_init - give arg types
+  void USBHID_init();
+User\usbhid.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif // USBHID_H
+User\usbhid.c(8): warning:  #1-D: last line of file ends without a newline
+  }
+User\usbhid.c: 4 warnings, 0 errors
+compiling common.c...
+User\common.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif // COMMON_H
+User\common.c: 1 warning, 0 errors
+compiling RTX_Conf_CM.c...
+compiling USBD_STM32F10x.c...
+compiling misc.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling DMA_STM32F10x.c...
+compiling GPIO_STM32F10x.c...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+compiling USBD_Config_0.c...
+linking...
+Program Size: Code=20912 RO-data=1160 RW-data=280 ZI-data=4016  
+FromELF: creating hex file...
+".\Objects\ibm1391401.axf" - 0 Error(s), 113 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ::CMSIS:RTOS:1.0.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: USB Device Version: 2.2.0
+   * Component: Keil RTX Version: 4.81.0
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.4.1.pack
+                Keil.MDK-Pro::USB:CORE:Release:6.11.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: CORE Variant: Release Version: 6.11.0
+   * Component: Device Version: 6.11.0
+   * Component: HID Version: 6.11.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil::Device:StdPeriph Drivers:DMA:3.5.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: DMA Version: 3.5.0
+   * Component: Startup Version: 1.0.0
+   * Component: GPIO Version: 3.5.0
+   * Component: RCC Version: 3.5.0
+   * Component: Framework Version: 3.5.1
+   * Component: GPIO Version: 1.3
+   * Component: DMA Version: 1.2
+   * Component: USB Device Version: 2.0
+   * Component: TIM Version: 3.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\RTOS\RTX\INC
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.4.1\USB\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ::CMSIS Driver:USB Device:2.2.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USBD.h
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.81.0
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+
+   * Component: Keil.MDK-Pro::USB:CORE:Release:6.11.0
+      Include file:  USB\Include\rl_usb.h
+      Library file:  USB\Lib\ARM\USB_CM3_L.lib
+
+   * Component: Keil.MDK-Pro::USB:Device:6.11.0
+      Source file:   USB\Config\USBD_Config.c
+      Source file:   USB\Template\USBD_User_Device.c
+      Source file:   USB\Template\USBD_User_Device_SerNum.c
+
+   * Component: Keil.MDK-Pro::USB:Device:HID:6.11.0
+      Source file:   USB\Template\USBD_User_HID_Mouse.c
+      Source file:   USB\Template\USBD_User_HID.c
+      Source file:   USB\Config\USBD_Config_HID.h
+
+   * Component: Keil::Device:StdPeriph Drivers:DMA:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_dma.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_dma.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.5.1
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+
+   * Component: Keil::Device:GPIO:1.3
+      Include file:  RTE_Driver\GPIO_STM32F10x.h
+      Source file:   RTE_Driver\GPIO_STM32F10x.c
+
+   * Component: Keil::Device:DMA:1.2
+      Include file:  RTE_Driver\DMA_STM32F10x.h
+      Source file:   RTE_Driver\DMA_STM32F10x.c
+
+   * Component: Keil::CMSIS Driver:USB Device:2.0
+      Source file:   RTE_Driver\USBD_STM32F10x.c
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_tim.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_tim.c
+Build Time Elapsed:  00:00:11
+</pre>
+</body>
+</html>
