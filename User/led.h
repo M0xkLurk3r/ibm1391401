@@ -13,6 +13,8 @@ void change_num_lock(bool status);
 void change_caps_lock(bool status);
 void change_scroll_lock(bool status);
 
+void system_led(bool status);
+
 void led_init();
 
 #endif // LED_H

@@ -22,6 +22,12 @@
 
 void Delay(uint32_t dlyTicks);
 
+// System initialize function
+void delay_us(unsigned int us);
+void delay_ms(unsigned int ms);
+//void RCC_DeInit(void);
+void StSystemClockInit(void);
+
 // For the fucking ARMCC compiler.
 
 
